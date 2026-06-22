@@ -1,0 +1,14 @@
+[project]
+name = "traccia-experiments"
+version = "0.1.0"
+description = "Experimental code for Traccia."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "groq>=1.5.0",
+    "python-dotenv>=1.2.2",
+    "rich>=15.0.0",
+    "ruff>=0.15.18",
+    "traccia>=0.1.22",
+]
