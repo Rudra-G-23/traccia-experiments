@@ -14,7 +14,6 @@ install()
 load_dotenv()
 
 # Init console export
-init(enable_console_exporter=True)
 
 # Create Client
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
@@ -39,3 +38,4 @@ def call_model(model):
 if __name__ == "__main__":
     response = call_model(client)
     print(response)
+init(enable_console_exporter=True)
